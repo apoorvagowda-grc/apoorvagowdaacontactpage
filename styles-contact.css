@@ -1,4 +1,4 @@
-/*This is my 201 Contact Web Page Project using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
+/* This is my 201 Contact Web Page Project using Eric Meyer's reset at the top of my page -- my CSS starts on line 56 */
 
 
 
@@ -55,6 +55,7 @@ table {
 
 /* ---------- This is the beginning of my 201 Contact Web Page Project ------------ */
 
+/* This is my beach background that covers the entire webpage */
 html, body {
   height: 100%;
   width: 100%;
@@ -65,66 +66,53 @@ html, body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-	
-	
 }
 
+/* This is my white center piece */
 .center {
-    width: 60%; 
+    width: 60%; /* This is for responsiveness */
 	min-width: 300px; 
-	padding: 2%;
+	padding: 2%; /* This is the space between the edge of the center and the text */
     margin: 200px auto;
- 	background: rgba(255, 255, 255, 0.7); 
-	text-align: center;
-	border: 50px rgb(20, 79, 92);
-	border-radius: 60px 20px 60px 20px;
+ 	background: rgba(255, 255, 255, 0.7); /* This is to make the center piece white */
+	text-align: center; /* This is to align the text to center */
+	border-radius: 60px 20px 60px 20px; /* This is to make the borders round */
 }
-   
+
+/* This is my logo */
 #logo {
     width: 40%; /* This is for responsiveness */
-	margin-bottom: 16px;
-	border: 0px rgb(20, 79, 92);
-	text-align: center;
+	margin-bottom: 14px; /* This is the space between the logo and the text below it */
+	text-align: center; /* This is so the logo is centered */
 }
 
+/* This is my first line of text */
 h1 {
-	/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
-	font-family: "merel", sans-serif; 
+	font-family: "merel", sans-serif;
 	font-size: 2em;
-	font-weight: 200;
-    margin: 0px auto 10px auto;
-    color: rgb(20, 79, 92);
+	font-weight: 1000; /* This is to make the font bolder */
+    margin: 0px auto 10px auto; 
+    color: rgb(20, 79, 92); /* This is the color of the font */
 }
 
+/* This is my second line of text */
 h2 {
-	 /* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
 	font-family: "merel", sans-serif;
 	 font-size: 1.5em;
-	 font-weight: 200;
-	 font-style: italic;
+	 font-weight: 900; /* This is to make the font bolder */
+	 font-style: italic; /* This is to make the font italic */
     line-height: 1.4;
-    color: rgb(20, 79, 92);
-    padding: 0px 0px;
+    color: rgb(20, 79, 92); /* This is the color of the font */
     margin: 0px auto 10px auto;
 }
 
-/* 
-p {
-	font-family: "merel", sans-serif;
-	font-size: 1.2em;
-    line-height: 1.6;
-    color: rgb(20, 79, 92);
-	letter-spacing: .1mm;
-} 
-*/
-
+/* This is my navigation bar */
 nav{
 	font-family: "merel", sans-serif;
-	font-size: 1.2em;
-	font-weight: 200;
+	font-size: 1.3em;
 	width: 80%; /* This is for responsiveness */
 	margin: 0 auto;
-	text-align: center;
+	text-align: center; /* This is so the navigation is centered */
 	margin-top: 0em;
 }
 
@@ -134,19 +122,23 @@ nav li{
 
 nav a{
 	display: inline-block;
-	padding: 10 px;
+	padding-right: 8px;
 }
 
+/* This is for before I hover over my navigation bar */
 a{
-	color: rgb(20, 79, 92);
-	text-decoration: none;
-	font-weight: bold;
+	color: rgb(20, 79, 92); /* This is the text color before you hover */
+	text-decoration: none; /* This is so the text is not underlined before you hover */
+	font-weight: 800; /* This is to make the font bolder */
+	padding-right: 3px; /* This is to add space on the right side of each text */
+	padding-left: 3px; /* This is to add space on the left side of each text */
 }
 
+/* This is for when I hover over my navigation bar */
 a:hover{
-	/* text-decoration: underline; */
-	border: 1px solid rgb(208,178,169);
-	color: rgb(208,178,169);
-	padding: 1.5px;
-	/* background: */
+	border: 1px solid rgb(208,178,169); /* This is to add a colored border around the text when you hover */
+	color: rgb(208,178,169); /* This is the color the text with be when you hover */
+	font-weight: 800; /* This is to make the font bolder */
+	padding-right: 3px; /* This is to add space on the right side of each text */
+	padding-left: 3px; /* This is to add space on the left side of each text */
 }
